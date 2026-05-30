@@ -64,10 +64,10 @@ export default function Contact() {
   };
 
   const contactInfos = [
-    { icon: <Mail size={22} style={{ color: '#6366f1' }} />, label: "Email", value: "developer@example.com", link: "mailto:developer@example.com" },
-    { icon: <Linkedin size={22} style={{ color: '#a855f7' }} />, label: "LinkedIn", value: "linkedin.com/in/ahmadfauzi", link: "https://linkedin.com" },
-    { icon: <Github size={22} style={{ color: '#ec4899' }} />, label: "GitHub", value: "github.com/ahmadfauzi", link: "https://github.com" },
-    { icon: <MapPin size={22} style={{ color: '#f59e0b' }} />, label: "Lokasi", value: "Jakarta, Indonesia", link: null }
+    { icon: <Mail size={22} style={{ color: '#6366f1' }} />, label: "Email", value: "hafizprawira75@gmail.com", link: "mailto:hafizprawira75@gmail.com" },
+    { icon: <Github size={22} style={{ color: '#a855f7' }} />, label: "Instagram", value: "@hafizprawira75", link: "https://instagram.com/hafizprawira75" },
+    { icon: <Linkedin size={22} style={{ color: '#ec4899' }} />, label: "WhatsApp", value: "081258929174", link: "https://wa.me/6281258929174" },
+    { icon: <MapPin size={22} style={{ color: '#f59e0b' }} />, label: "Lokasi", value: "Banjarmasin, Kalimantan Selatan", link: null }
   ];
 
   return (

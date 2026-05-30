@@ -14,57 +14,24 @@ export default function Projects() {
 
   const categories = [
     { id: 'semua', label: 'Semua' },
-    { id: 'web', label: 'Web App' },
-    { id: 'mobile', label: 'Mobile' },
-    { id: 'design', label: 'UI/UX Design' }
+    { id: 'ar', label: 'AR / 3D' },
+    { id: 'web', label: 'Web App' }
   ];
 
   const projectsData = [
     {
-      title: "E-Commerce Luxury",
-      desc: "Platform belanja online mewah dengan keranjang belanja real-time, sistem pembayaran, dan dashboard admin terintegrasi.",
-      tech: ["React JS", "Node.js", "MongoDB", "Redux"],
+      title: "AR 3D Pertumbuhan Tanaman",
+      desc: "Aplikasi Augmented Reality (AR) yang menampilkan simulasi 3D pertumbuhan tanaman secara interaktif. Pengguna dapat melihat proses tumbuh tanaman dalam dunia nyata menggunakan kamera perangkat mereka.",
+      tech: ["3D Modeling", "Augmented Reality", "Unity", "ARCore"],
+      category: "ar",
+      demoUrl: "https://example.com",
+      githubUrl: "https://github.com"
+    },
+    {
+      title: "Oma Risol Banjarmasin",
+      desc: "Website promosi untuk usaha kuliner Oma Risol Banjarmasin. Menampilkan menu lengkap, informasi kontak, lokasi, dan sistem pemesanan online yang memudahkan pelanggan memesan produk.",
+      tech: ["PHP Laravel", "MySQL", "React", "CSS3"],
       category: "web",
-      demoUrl: "https://example.com",
-      githubUrl: "https://github.com"
-    },
-    {
-      title: "Smart Kasir (POS)",
-      desc: "Aplikasi kasir (Point of Sale) modern untuk UMKM dengan manajemen stok otomatis dan laporan penjualan grafis.",
-      tech: ["Laravel", "MySQL", "Tailwind CSS", "ChartJS"],
-      category: "web",
-      demoUrl: "https://example.com",
-      githubUrl: "https://github.com"
-    },
-    {
-      title: "Smart Budgeting App",
-      desc: "Aplikasi pelacak keuangan pribadi berbasis mobile dengan analitik pengeluaran bulanan cerdas dan notifikasi.",
-      tech: ["React Native", "Firebase", "Expo"],
-      category: "mobile",
-      demoUrl: "https://example.com",
-      githubUrl: "https://github.com"
-    },
-    {
-      title: "Creative Agency Landing",
-      desc: "Landing page modern dengan animasi mikro mewah, interaksi gulir (scroll animations), dan estetika glassmorphism.",
-      tech: ["HTML5", "CSS Grid", "Framer Motion", "Vite"],
-      category: "design",
-      demoUrl: "https://example.com",
-      githubUrl: "https://github.com"
-    },
-    {
-      title: "Dashboard IoT Tanaman",
-      desc: "Dashboard real-time untuk memantau kelembaban tanah, suhu, dan intensitas cahaya tanaman perkebunan otomatis.",
-      tech: ["React JS", "WebSockets", "Node.js", "Chart.js"],
-      category: "web",
-      demoUrl: "https://example.com",
-      githubUrl: "https://github.com"
-    },
-    {
-      title: "Travel Plan App UI",
-      desc: "Desain antarmuka aplikasi perencana perjalanan futuristik yang berfokus pada rute petualangan dan pemesanan tiket.",
-      tech: ["Figma", "UI/UX", "Prototyping"],
-      category: "design",
       demoUrl: "https://example.com",
       githubUrl: "https://github.com"
     }

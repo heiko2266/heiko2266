@@ -72,11 +72,11 @@ export default function About() {
                     border: '4px solid rgba(255, 255, 255, 0.1)'
                   }}
                 >
-                  AF
+                  HPA
                 </div>
                 
-                <h3 style={{ fontSize: '1.4rem', fontWeight: 700, marginBottom: '0.25rem' }}>Ahmad Fauzi</h3>
-                <p style={{ color: 'var(--accent-color)', fontWeight: 600, fontSize: '0.9rem', marginBottom: '1.5rem', fontFamily: 'monospace' }}>@ahmadfauzi.dev</p>
+                <h3 style={{ fontSize: '1.4rem', fontWeight: 700, marginBottom: '0.25rem' }}>Hafis Prawira Anggraini</h3>
+                <p style={{ color: 'var(--accent-color)', fontWeight: 600, fontSize: '0.9rem', marginBottom: '1.5rem', fontFamily: 'monospace' }}>@hafizprawira75</p>
 
                 {/* Code badge overlay */}
                 <span className="badge" style={{ fontSize: '0.8rem' }}>&lt;Code is Life /&gt;</span>
@@ -87,12 +87,12 @@ export default function About() {
           {/* Right Text details & Stats */}
           <div style={{ display: 'flex', flexDirection: 'column', gap: '2rem' }}>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
-              <h3 style={{ fontSize: '1.8rem', fontWeight: 700 }}>Membangun Solusi Digital Inovatif</h3>
+              <h3 style={{ fontSize: '1.8rem', fontWeight: 700 }}>Programmer & 3D Modeler Kreatif</h3>
               <p style={{ color: 'var(--text-secondary)' }}>
-                Saya adalah seorang pengembang web yang berdedikasi tinggi dengan fokus pada penciptaan aplikasi yang tidak hanya berfungsi dengan baik, tetapi juga memberikan pengalaman pengguna yang menyenangkan. Dengan keahlian mendalam di bidang frontend dan backend, saya siap membantu merealisasikan ide-ide kreatif Anda menjadi produk digital yang sukses.
+                Saya adalah seorang programmer dan 3D modeler yang berdedikasi dari Banjarmasin. Saya memiliki keahlian dalam pengembangan web menggunakan PHP Laravel dan React, serta membuat model 3D yang imersif termasuk proyek AR. Saya selalu berupaya menghasilkan solusi digital yang inovatif dan berkualitas tinggi.
               </p>
               <p style={{ color: 'var(--text-secondary)' }}>
-                Saya percaya bahwa detail-detail kecil adalah yang membedakan produk yang biasa saja dari produk yang luar biasa. Oleh karena itu, saya selalu berupaya menulis kode yang efisien, mudah dipelihara, dan mengikuti standar terbaik di industri.
+                Dengan pengalaman dalam pengembangan aplikasi augmented reality dan website promosi bisnis, saya siap membantu mewujudkan ide-ide kreatif Anda menjadi produk digital yang memukau dan fungsional.
               </p>
             </div>
 

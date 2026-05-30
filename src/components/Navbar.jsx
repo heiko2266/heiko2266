@@ -92,7 +92,7 @@ export default function Navbar() {
             letterSpacing: '-0.5px'
           }}
         >
-          DevPort.
+          HafisPort.
         </a>
 
         {/* Desktop Menu */}

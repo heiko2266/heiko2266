@@ -5,34 +5,34 @@ export default function Experience() {
   const experiences = [
     {
       type: "work",
-      role: "Senior Frontend Developer",
-      company: "Creative Tech Studio",
-      period: "2024 - Sekarang",
-      desc: "Memimpin tim frontend dalam pembuatan aplikasi SaaS berbasis AI. Mengoptimalkan performa React hingga 40% dan merancang library komponen UI bersama tim desain.",
+      role: "Programmer & 3D Modeler",
+      company: "Freelance / Project Mandiri",
+      period: "2023 - Sekarang",
+      desc: "Mengerjakan proyek pembuatan aplikasi Augmented Reality (AR) 3D pertumbuhan tanaman serta pengembangan website promosi bisnis kuliner lokal menggunakan PHP Laravel, React, dan MySQL.",
       icon: <Briefcase size={20} />
     },
     {
       type: "work",
-      role: "Fullstack Web Developer",
-      company: "Solusi Digital Indonesia",
-      period: "2022 - 2024",
-      desc: "Membangun dan memelihara aplikasi web e-learning menggunakan Laravel dan React JS. Merancang arsitektur API RESTful dan mengintegrasikan gateway pembayaran pihak ketiga.",
+      role: "Web Developer",
+      company: "Oma Risol Banjarmasin",
+      period: "2023",
+      desc: "Membangun website promosi untuk usaha kuliner Oma Risol Banjarmasin. Menampilkan menu, informasi kontak, dan sistem pemesanan online menggunakan PHP Laravel dan MySQL.",
       icon: <Briefcase size={20} />
     },
     {
       type: "work",
-      role: "Junior Web Developer",
-      company: "Startup Maju Bersama",
-      period: "2021 - 2022",
-      desc: "Mengembangkan halaman arahan promosi responsif dan modul e-commerce sederhana menggunakan PHP, HTML5, dan Javascript murni.",
+      role: "AR & 3D Developer",
+      company: "Proyek Edukasi Pertanian",
+      period: "2022 - 2023",
+      desc: "Mengembangkan aplikasi Augmented Reality 3D yang mensimulasikan pertumbuhan tanaman secara interaktif. Menggunakan teknologi 3D Modeling dan AR untuk tujuan edukasi.",
       icon: <Briefcase size={20} />
     },
     {
       type: "education",
-      role: "Sarjana Teknik Informatika (S1)",
-      company: "Universitas Teknologi Terkemuka",
-      period: "2017 - 2021",
-      desc: "Lulus dengan IPK 3.80/4.00. Aktif dalam laboratorium riset pengembangan web dan memenangkan kompetisi peretasan (hackathon) tingkat nasional.",
+      role: "Mahasiswa Teknik Informatika",
+      company: "Universitas Banjarmasin",
+      period: "2020 - Sekarang",
+      desc: "Mendalami ilmu pemrograman, pengembangan web, dan teknologi 3D. Aktif mengerjakan proyek-proyek nyata sebagai bentuk penerapan ilmu yang dipelajari.",
       icon: <GraduationCap size={20} />
     }
   ];

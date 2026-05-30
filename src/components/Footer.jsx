@@ -69,7 +69,7 @@ export default function Footer() {
               letterSpacing: '-0.5px'
             }}
           >
-            DevPort.
+            HafisPort.
           </a>
         </div>
 
@@ -117,10 +117,10 @@ export default function Footer() {
         {/* Social Icons */}
         <div style={{ display: 'flex', gap: '1rem' }}>
           {[
-            { icon: <Github size={20} />, url: 'https://github.com' },
-            { icon: <Linkedin size={20} />, url: 'https://linkedin.com' },
-            { icon: <Twitter size={20} />, url: 'https://twitter.com' },
-            { icon: <Mail size={20} />, url: 'mailto:developer@example.com' }
+            { icon: <Github size={20} />, url: 'https://instagram.com/hafizprawira75' },
+            { icon: <Linkedin size={20} />, url: 'https://wa.me/6281258929174' },
+            { icon: <Twitter size={20} />, url: 'https://instagram.com/hafizprawira75' },
+            { icon: <Mail size={20} />, url: 'mailto:hafizprawira75@gmail.com' }
           ].map((social, idx) => (
             <a
               key={idx}
@@ -160,7 +160,7 @@ export default function Footer() {
 
         {/* Copyright */}
         <div style={{ display: 'flex', justifyContent: 'space-between', width: '100%', flexWrap: 'wrap', gap: '1rem', color: 'var(--text-muted)', fontSize: '0.9rem' }} className="footer-bottom">
-          <p>&copy; {currentYear} DevPort. Hak Cipta Dilindungi Undang-Undang.</p>
+          <p>&copy; {currentYear} Hafis Prawira Anggraini. Hak Cipta Dilindungi Undang-Undang.</p>
           <p>Dibuat dengan ❤️ &amp; React JS</p>
         </div>
       </div>

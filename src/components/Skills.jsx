@@ -4,36 +4,33 @@ import { Code, Server, Wrench } from 'lucide-react';
 export default function Skills() {
   const skillCategories = [
     {
-      title: "Frontend Development",
+      title: "Programming & Web",
       icon: <Code size={24} style={{ color: '#6366f1' }} />,
       skills: [
-        { name: "React JS", level: 90 },
-        { name: "JavaScript (ES6+)", level: 85 },
-        { name: "HTML5 / CSS3", level: 95 },
-        { name: "Next.js", level: 75 },
-        { name: "Tailwind CSS", level: 90 }
+        { name: "React JS", level: 85 },
+        { name: "PHP Laravel", level: 88 },
+        { name: "JavaScript (ES6+)", level: 80 },
+        { name: "HTML5 / CSS3", level: 90 }
       ]
     },
     {
-      title: "Backend & Database",
+      title: "Database & Backend",
       icon: <Server size={24} style={{ color: '#a855f7' }} />,
       skills: [
-        { name: "Node.js & Express", level: 80 },
-        { name: "PHP & Laravel", level: 85 },
-        { name: "MySQL / PostgreSQL", level: 85 },
-        { name: "REST APIs", level: 90 },
-        { name: "MongoDB", level: 70 }
+        { name: "MySQL", level: 85 },
+        { name: "REST APIs", level: 80 },
+        { name: "Laravel Eloquent ORM", level: 82 },
+        { name: "PHP Native", level: 78 }
       ]
     },
     {
-      title: "Tools & Others",
+      title: "3D Modeling & AR",
       icon: <Wrench size={24} style={{ color: '#ec4899' }} />,
       skills: [
-        { name: "Git & GitHub", level: 88 },
-        { name: "Figma (UI/UX)", level: 75 },
-        { name: "Docker", level: 65 },
-        { name: "Postman", level: 85 },
-        { name: "Linux / VPS", level: 70 }
+        { name: "3D Modeling", level: 88 },
+        { name: "Augmented Reality (AR)", level: 80 },
+        { name: "Unity", level: 75 },
+        { name: "Blender", level: 82 }
       ]
     }
   ];

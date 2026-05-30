@@ -18,7 +18,7 @@ const Linkedin = ({ size = 20 }) => (
 
 
 export default function Hero() {
-  const words = ["React Developer", "Fullstack Engineer", "Creative Creator", "UI/UX Specialist"];
+  const words = ["Programmer", "3D Modeler", "PHP Laravel Developer", "React Developer"];
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
   const [currentText, setCurrentText] = useState("");
   const [isDeleting, setIsDeleting] = useState(false);
@@ -77,7 +77,7 @@ export default function Hero() {
           <div>
             <span className="badge" style={{ marginBottom: '1rem' }}>Welcome to my universe</span>
             <h1 style={{ fontSize: '3.5rem', lineHeight: 1.1, fontWeight: 800 }}>
-              Halo, Saya <span style={{ background: 'var(--accent-grad)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>Creative Coder</span>
+              Halo, Saya <span style={{ background: 'var(--accent-grad)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>Hafis Prawira</span>
             </h1>
             <h2 style={{ fontSize: '2rem', marginTop: '0.5rem', fontWeight: 600, display: 'flex', alignItems: 'center', gap: '0.5rem', minHeight: '3rem' }}>
               Saya seorang <span style={{ color: 'var(--accent-color)' }}>{currentText}</span>
@@ -103,9 +103,9 @@ export default function Hero() {
             <span style={{ fontSize: '0.9rem', color: 'var(--text-muted)' }}>Temukan saya di:</span>
             <div style={{ display: 'flex', gap: '0.75rem' }}>
               {[
-                { icon: <Github size={20} />, url: 'https://github.com' },
-                { icon: <Linkedin size={20} />, url: 'https://linkedin.com' },
-                { icon: <Mail size={20} />, url: 'mailto:developer@example.com' }
+                { icon: <Github size={20} />, url: 'https://instagram.com/hafizprawira75' },
+                { icon: <Linkedin size={20} />, url: 'https://wa.me/6281258929174' },
+                { icon: <Mail size={20} />, url: 'mailto:hafizprawira75@gmail.com' }
               ].map((social, index) => (
                 <a
                   key={index}
@@ -166,13 +166,13 @@ export default function Hero() {
             {/* Code simulation */}
             <div style={{ fontFamily: 'monospace', fontSize: '0.9rem', color: '#80cbc4', lineHeight: 1.6 }}>
               <p><span style={{ color: '#c792ea' }}>const</span> <span style={{ color: '#82b1ff' }}>developer</span> = &#123;</p>
-              <p style={{ paddingLeft: '1.5rem' }}><span style={{ color: '#f07178' }}>nama</span>: <span style={{ color: '#c3e88d' }}>"Ahmad Fauzi"</span>,</p>
-              <p style={{ paddingLeft: '1.5rem' }}><span style={{ color: '#f07178' }}>peran</span>: <span style={{ color: '#c3e88d' }}>"Fullstack Developer"</span>,</p>
+              <p style={{ paddingLeft: '1.5rem' }}><span style={{ color: '#f07178' }}>nama</span>: <span style={{ color: '#c3e88d' }}>"Hafis Prawira Anggraini"</span>,</p>
+              <p style={{ paddingLeft: '1.5rem' }}><span style={{ color: '#f07178' }}>peran</span>: <span style={{ color: '#c3e88d' }}>"Programmer & 3D Modeler"</span>,</p>
               <p style={{ paddingLeft: '1.5rem' }}><span style={{ color: '#f07178' }}>keahlian</span>: [</p>
-              <p style={{ paddingLeft: '3rem' }}><span style={{ color: '#c3e88d' }}>"React"</span>, <span style={{ color: '#c3e88d' }}>"Node.js"</span>, <span style={{ color: '#c3e88d' }}>"Laravel"</span></p>
+              <p style={{ paddingLeft: '3rem' }}><span style={{ color: '#c3e88d' }}>"React"</span>, <span style={{ color: '#c3e88d' }}>"Laravel"</span>, <span style={{ color: '#c3e88d' }}>"3D Modeling"</span></p>
               <p style={{ paddingLeft: '1.5rem' }}><span style={{ color: '#89ddff' }}>]</span>,</p>
-              <p style={{ paddingLeft: '1.5rem' }}><span style={{ color: '#f07178' }}>sukaKopi</span>: <span style={{ color: '#f78c6c' }}>true</span>,</p>
-              <p style={{ paddingLeft: '1.5rem' }}><span style={{ color: '#f07178' }}>desainPremium</span>: <span style={{ color: '#f78c6c' }}>true</span></p>
+              <p style={{ paddingLeft: '1.5rem' }}><span style={{ color: '#f07178' }}>ig</span>: <span style={{ color: '#c3e88d' }}>"hafizprawira75"</span>,</p>
+              <p style={{ paddingLeft: '1.5rem' }}><span style={{ color: '#f07178' }}>kreatiF</span>: <span style={{ color: '#f78c6c' }}>true</span></p>
               <p>&#125;;</p>
               <br />
               <p style={{ color: '#89ddff' }}><span style={{ color: '#c792ea' }}>function</span> <span style={{ color: '#82b1ff' }}>createAwesomeWeb</span>() &#123;</p>
